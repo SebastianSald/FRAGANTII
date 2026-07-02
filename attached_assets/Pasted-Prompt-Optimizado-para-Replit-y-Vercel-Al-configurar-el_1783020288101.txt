@@ -1,0 +1,167 @@
+Prompt Optimizado para Replit y Vercel
+Al configurar el proyecto, crea siempre un archivo vercel.json en la raíz para asegurar el despliegue correcto de una SPA (Single Page Application) con Vite.
+El archivo debe tener exactamente esta configuración:
+
+json
+{
+  "framework": "vite",
+  "outputDirectory": "dist/public",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
+No esperes a que falle el deploy, inclúyelo desde el principio.
+Asegúrate también de que el vite.config.js tenga base: "./" y que el build apunte a "dist/public" para compatibilidad total con Vercel.
+
+🌹 Construye un sitio web elegante y sensorial para "FRAGANTI"
+Una tienda de perfumes originales y decants de 5ml y 10ml, que ofrece fragancias árabes, de diseñador, asesoría personalizada, y está ubicada en Medellín y Caucasia, con envíos nacionales.
+El diseño debe transmitir lujo, autenticidad y emoción olfativa, con una experiencia fluida y moderna.
+
+🎨 DISEÑO Y ESTÉTICA
+Paleta sofisticada: marfil (#F8F5F2), negro carbón (#1A1A1A), negro mate (#1C1C1C), hueso (#F5F5DC), gris humo (#5A5A5A)
+
+Tipografía: Serif moderna para títulos (Playfair Display o Cormorant Garamond), Sans-serif limpia para textos (Lato o Poppins)
+
+Fotografía: macro de frascos, gotas, piel y flores en tonos cálidos y suaves
+
+Elementos gráficos: curvas fluidas, transparencias, reflejos sutiles y degradados acorde a la paleta de colores
+
+Animaciones: transiciones suaves tipo fade-in y parallax en scroll; micro-interacciones al hover sobre productos
+
+Diseño UI/UX: estructura modular, navegación intuitiva, jerarquía visual clara, y uso de espacios negativos para resaltar los productos
+
+💎 HERO SECTION
+Video background de perfume atomizándose en cámara lenta (fallback a imagen estática)
+
+Overlay dorado translúcido (40% opacity)
+
+Headline: “Descubre tu esencia. Vive el lujo.”
+
+Subline: “Perfumes originales que cuentan tu historia.”
+
+CTAs destacados:
+
+“Explora la colección” (botón dorado)
+
+“Encuentra tu aroma ideal” (outline negro)
+
+“Compra ahora” (botón negro sólido)
+
+Badges: “100% originales”, “Envíos a todo Colombia”
+
+🧴 COLECCIÓN DE PERFUMES
+Grid de productos con diseño modular y hover elegante
+
+Imagen del frasco con reflejo
+
+Nombre del perfume
+
+Notas olfativas principales (cítricas, amaderadas, florales, orientales)
+
+Precio
+
+Botón “Agregar al carrito”
+
+Hover: zoom suave + descripción expandida
+
+Filtros: por marca, tipo de fragancia, género, ocasión
+
+Vista rápida: modal con detalles y reseñas
+
+🌸 EXPERIENCIA SENSORIAL
+Sección visual con animaciones de partículas simulando gotas de perfume
+
+Texto inspirador: “Cada aroma es una memoria. Cada fragancia, una emoción.”
+
+Slider interactivo: muestra las familias olfativas con íconos (floral, oriental, cítrica, amaderada)
+
+CTA: “Descubre tu familia olfativa”
+
+🧠 TEST DE PERSONALIDAD OLFATIVA
+Cuestionario dinámico con micro-interacciones
+
+Preguntas sobre estilo, emociones y preferencias de aromas para un perfume acorde a tu personalidad o tus gustos, o con un objetivo social (salidas, fiestas, citas, etc.)
+
+Resultado: recomendación personalizada de perfumes
+
+Animación final: transición con efecto blur y aparición del perfume sugerido
+
+🛍️ TIENDA Y CHECKOUT
+Diseño limpio y minimalista
+
+Pasos visuales: carrito → datos → pago → confirmación
+
+Integración: pasarela de pagos segura (PayU, MercadoPago)
+
+Animación de carga: logo girando con efecto de vapor
+
+📱 OPTIMIZACIÓN MOBILE
+Diseño mobile-first
+
+Menú hamburguesa con animación fluida
+
+Botones grandes y accesibles
+
+Swipe en galería de perfumes
+
+Sticky CTA “Comprar ahora” en scroll
+
+Floating WhatsApp y “Llamar” button
+
+🧩 CARACTERÍSTICAS TÉCNICAS
+Responsive total (HTML5 + CSS Grid + Flexbox)
+
+Lazy loading de imágenes
+
+SEO optimizado para productos y reseñas
+
+Integración con API de reseñas y calificaciones
+
+Animaciones con GSAP o Framer Motion
+
+Parallax suave en secciones visuales
+
+Modo oscuro opcional
+
+Loading screen con logo animado y efecto de niebla
+
+Compatibilidad total con Vercel y Replit
+
+Configuración automática para SPA con vercel.json incluido desde el inicio
+
+Uso de vite-plugin-pwa opcional para soporte offline
+
+🕯️ SECCIÓN DE DECANTS
+Showcase visual de frascos de 5ml y 10ml
+
+Descripción de ventajas: probar antes de comprar, portabilidad, exclusividad
+
+CTA: “Explora nuestros decants”
+
+📍 CONTACTO Y UBICACIÓN
+Mapa embebido de Google Maps
+
+Información destacada: dirección física, teléfono (click-to-call), WhatsApp directo, email
+
+Formulario de contacto con validación en tiempo real
+
+Horarios de atención
+
+🖤 FOOTER
+Fondo negro con texto dorado
+
+Cuatro columnas:
+
+Logo + frase “Tu esencia, nuestro arte”
+
+Links rápidos (Colección, Blog, Contacto, Test Olfativo)
+
+Contacto directo
+
+Newsletter + redes sociales (Instagram, TikTok, YouTube)
+
+Copyright y política de privacidad
+
+Trust badges: autenticidad, garantía, seguridad SSL
+
+Este prompt está optimizado para que 
