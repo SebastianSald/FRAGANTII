@@ -1,0 +1,2 @@
+- [FRAGANTI Vercel config](fraganti-vercel-config.md) — PORT and BASE_PATH must be optional (not throw) in vite.config.ts for Vercel builds to succeed.
+- [Escaped backticks in JSX](jsx-template-literal-escaping.md) — Design subagents sometimes write \` instead of ` inside JSX template literals; fix with a Node.js script reading the file as utf8 and doing string replacement.

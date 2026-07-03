@@ -1,0 +1,8 @@
+{
+  "framework": "vite",
+  "outputDirectory": "artifacts/fraganti/dist/public",
+  "buildCommand": "pnpm --filter @workspace/fraganti run build",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
